@@ -1,0 +1,76 @@
+.bottomsheetcontainer{
+background-color: #ffffff;
+border-radius: 1.5em 1.5em 0 0;
+position: relative;
+height: 100%;
+padding: 1.5em 1em;
+}
+.switchline{
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    transform: translateX("-50%");
+    height: 4px;
+    width: 35px;
+    background-color: #cccccc;
+}
+.switchline a{
+    padding-left: 0.6em;
+}
+.switchline a img{
+    width: 40%;
+    transform: rotate(270deg);
+    color: #cccccc;
+}
+.addTopic_btn{
+    background-color: transparent;
+    border:none;
+    color: #28ae61;
+}
+.selectroom{
+    border-bottom: 1px solid #cccccc;
+    padding: 1.5em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.selectroom button{
+    border: none;
+    background-color: transparent;
+    padding: 0.5em 1.3em 0.2em 1.3em;
+    border-radius: 1em;
+    line-height: 1.2;
+}
+.selectroom button.active{
+    border: solid 1px lightseagreen;
+    background-color: lightblue;
+}
+.selectroom button div {
+    background-color: lightseagreen;
+    border-radius: 1.5em;
+}
+.selectroom button svg {
+    font-size: 4em;
+}
+.bottomsheetcontainer p{
+    font-size: 1em;
+    color: var(--textColor);
+    text-align: center;
+    font-weight: 500;
+}
+
+.letsgobtn{
+    font-size: 1.3em;
+    font-weight: 500;
+    border: none;
+    border-radius: 2em;
+    color: #ffffff;
+    background-color: #28ae61;
+    padding: 0.3em 2em;
+    text-align: center;
+    align-items: center;
+}
+.text_center{
+    text-align: center;
+}

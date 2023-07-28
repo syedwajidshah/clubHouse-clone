@@ -1,0 +1,133 @@
+.explore_container{
+    padding:0 0.5em;
+    overflow: auto;
+    height: 100%;
+    padding: 2.5em;
+}
+.explore_container h6 {
+    font-size: 0.975em;
+    font-weight: 500;
+    margin: 1.5em 0 0.5em;
+    color:#bbbbbb;
+}
+.show_more{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: -14px;
+    left: 30%;
+    transform: translateY(-50%);
+    background-color: #f4f4f4 !important;
+    border: none !important;
+    color: #aaaaaa !important;
+    box-shadow: 0px 2px 3px #cccccc;
+    font-weight: 500;
+}
+.show_more span{
+    font-size: 0.775em !important;
+    margin-top: 0.4em;
+    margin-left: 0.5em;
+}
+/*
+.head img{
+    width: 15px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}*/
+
+.people_container{
+    background-color: #ffffff;
+    margin: 0 -0.5em;
+ 
+    padding: 0.5em 0.5em 1.5em 0.5em;
+    position: relative;
+}
+.people_container > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.9em;
+    margin-bottom: 0.5em;
+}
+.people_container img{
+    width: 50px;
+    border-radius: 1.9em;
+}
+.people_container h5{
+    padding-left: 0.3em;
+    font-size: 1.1em;
+    margin-bottom: 0.2em;
+    color: var(--textcolor);
+}
+.people_container p {
+    color: var(--textcolor);
+    font-size: 0.9em;
+   
+    padding-left: 0.3em;
+    margin: 0;
+    display: block;
+    display: -webkit-box;
+    width: 173px;
+    height: fit-content;
+    line-height: 1.15em;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #aaaaaa;
+}
+.people_container button {
+    background-color: transparent;
+    border: 2px solid #3287b7;
+    border-radius: 2em;
+    color: #3287b7;
+    padding: 0.1em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+}
+.conversation_card{
+    background-color: #ffffff;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    box-shadow: 0px 2px 3px #cccccc;
+}
+.conversation_card h6{
+    color: var(--textcolor);
+    margin: 0;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+.conversation_card h6 span{
+    margin-right: 0.2em;
+}
+.conversation_card p{
+    color: #aaaaaa;
+    line-height: 1.2em;
+    margin: 0;
+    font-size: 0.8em;
+}
+.header{
+    position: absolute;
+    background-color: #f2f0e4;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 0.5em;
+     z-index: 5;
+}
+.head img{
+    width: 20px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.head{
+    text-align: center;
+    padding: 0.5em 0.5em;
+    position: relative;
+
+}

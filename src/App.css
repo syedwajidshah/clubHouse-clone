@@ -1,0 +1,41 @@
+.root{
+  --textcolor: rgb(65, 64, 66);
+  --btnbgcolor: #3287b7;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+  outline: none !important;
+}
+a{
+  text-decoration: none !important;
+}
+.primarybtn{
+  background-color: #3287b7;
+  text-decoration: none;
+  color: #ffff;
+  border-radius: 2em;
+  padding: 0.5em 1.5em;
+  font-size: 1.2em;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  
+}
+.app_layout{
+  background-color: #f2f0e4;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  max-width: 670px;
+  margin: auto;
+  
+}
